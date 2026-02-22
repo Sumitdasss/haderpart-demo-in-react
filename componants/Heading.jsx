@@ -6,7 +6,7 @@ const Heading = ({className,selectpart}) => {
     <div className='max-w-[1440px] mx-auto'>
 <div className='flex justify-between items-center h-[90px] '>
     <div className="flex ">
-        <img src="src/assets/logo.png" alt="" />
+        <img src="src/assets/logo.png" alt="src/assets/logo.png" />
        
     </div>
      <div className=' flex w-[544px] bg-white  h-[50px] relative '>
