@@ -1,8 +1,10 @@
 
 import './App.css'
-import Heading from '../componants/Heading'
-import Button from '../componants/Button'
-import Navbar from '../componants/Navbar'
+import Heading from '/componants/page/Heading'
+import Button from '/componants/page/Button'
+import Navbar from '/componants/page/Navbar'
+
+
 
 function App() {
  
@@ -10,7 +12,7 @@ function App() {
     <>
      <Heading />
      <Navbar/>
-     
+      
      <Heading className={"bg-amber-600"}/>
      <Navbar className={"bg-amber-900"}/>
      

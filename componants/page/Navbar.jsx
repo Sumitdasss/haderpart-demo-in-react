@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../componants/Button'
+import Button from './Button'
 
 const Navbar = ({className}) => {
   return (
