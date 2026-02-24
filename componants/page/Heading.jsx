@@ -1,10 +1,17 @@
 import profile from '/src/assets/1.png';
 import Image from './Image';
+import Flex from './Flex';
+import Iconone from '/src/assets/Icon/Iconone';
+import Icontwo from '/src/assets/Icon/Icontwo';
+import Iconthree from '/src/assets/Icon/Iconthree';
+import Iconfour from '/src/assets/Icon/Iconfour';
+
+
 const Heading = ({className,selectpart}) => {
   return (
     <div className={`bg-[#074E37] ${className}`}>
     <div className='max-w-[1440px] mx-auto'>
-<div className='flex justify-between items-center h-[90px] '>
+<Flex className='h-[90px] '>
     <div className="flex ">
      <Image imgSrc={profile}/>
        
@@ -24,13 +31,13 @@ const Heading = ({className,selectpart}) => {
     <i class="fa-solid fa-magnifying-glass"></i>
   </div>
         </div>
-    <div className="space-x-8 text-white text-[18px]">
-        <i class="fa-regular fa-user"></i>
-        <i class="fa-regular fa-heart"></i>
-      <i class="fa-brands fa-opencart"></i>
-        <i class="fa-solid fa-bars-staggered"></i>
-    </div>
-</div>
+    <Flex className="space-x-8 text-white text-[18px]">
+        <Iconone/>
+        <Icontwo/>
+     <Iconthree/>
+       <Iconfour/>
+    </Flex>
+</Flex>
 
 
 

@@ -1,11 +1,12 @@
 import React from 'react'
 import Button from './Button'
+import Flex from './Flex'
 
 const Navbar = ({className}) => {
   return (
     <div className={`bg-[#86BC42] ${className}`}>
     <div className='max-w-[1440px] mx-auto'>
-<div className='flex justify-between items-center h-[50px] '>
+<Flex className=' h-[50px] '>
     <div className="">
         <ul className='flex text-[16px] text-white font-medium space-x-5'>
             <li><a href="">HOME</a></li>
@@ -24,7 +25,7 @@ const Navbar = ({className}) => {
    
             
        
-    </div>
+    </Flex>
 </div>
 
 
