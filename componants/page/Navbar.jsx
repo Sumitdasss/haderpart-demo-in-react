@@ -1,12 +1,13 @@
 import React from 'react'
 import Button from './Button'
 import Flex from './Flex'
+import Container from './Container';
 
 const Navbar = ({className}) => {
   return (
     <div className={`bg-[#86BC42] ${className}`}>
-    <div className='max-w-[1440px] mx-auto'>
-<Flex className=' h-[50px] '>
+    <Container>
+<Flex className=' h-[50px] items-center '>
     <div className="">
         <ul className='flex text-[16px] text-white font-medium space-x-5'>
             <li><a href="">HOME</a></li>
@@ -26,7 +27,7 @@ const Navbar = ({className}) => {
             
        
     </Flex>
-</div>
+</Container>
 
 
 

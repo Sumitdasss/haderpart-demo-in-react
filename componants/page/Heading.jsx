@@ -1,6 +1,8 @@
 import profile from '/src/assets/1.png';
+
 import Image from './Image';
 import Flex from './Flex';
+import Container from './Container';
 import Iconone from '/src/assets/Icon/Iconone';
 import Icontwo from '/src/assets/Icon/Icontwo';
 import Iconthree from '/src/assets/Icon/Iconthree';
@@ -10,10 +12,11 @@ import Iconfour from '/src/assets/Icon/Iconfour';
 const Heading = ({className,selectpart}) => {
   return (
     <div className={`bg-[#074E37] ${className}`}>
-    <div className='max-w-[1440px] mx-auto'>
-<Flex className='h-[90px] '>
+    <Container>
+<Flex className='h-[90px] items-center  '>
     <div className="flex ">
      <Image imgSrc={profile}/>
+  
        
     </div>
      <div className=' flex w-[544px] bg-white  h-[50px] relative '>
@@ -41,7 +44,7 @@ const Heading = ({className,selectpart}) => {
 
 
 
-    </div>
+    </Container>
     </div>
 
 

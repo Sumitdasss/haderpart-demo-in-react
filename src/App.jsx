@@ -3,6 +3,8 @@ import './App.css'
 import Heading from '/componants/page/Heading'
 import Button from '/componants/page/Button'
 import Navbar from '/componants/page/Navbar'
+import Iayoutone from '/componants/layout/layoutone'
+
 
 
 
@@ -28,6 +30,7 @@ function App() {
      <Heading className={"bg-gray-400"}/>
      <Navbar className={"bg-gray-700"}/>
      
+    <Iayoutone/>
     
 
     </>
