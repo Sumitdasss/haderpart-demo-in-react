@@ -21,7 +21,7 @@ const Iayoutone = () => {
 
   return (
     <div 
-      className="bg-[url(src/assets/SLIDER.png)] bg-cover bg-center bg-cover h-[560px] w-full overflow-hidden"
+      className="bg-[url(/src/assets/SLIDER.png)] bg-cover bg-center bg-cover h-[560px] w-full overflow-hidden"
    
     >
       <Container className="relative ">

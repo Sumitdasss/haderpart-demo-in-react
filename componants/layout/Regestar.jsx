@@ -7,7 +7,7 @@ import Flex from '/componants/page/Flex'
 const Regestar = () => {
   return (
 <>
-   <div className="bg-[url(src/assets/5.png)] bg-no-repeat bg-cover bg-center  pt-[140px] pb-[120px]">
+   <div className="bg-[url(/src/assets/5.png)] bg-no-repeat bg-cover bg-center  pt-[140px] pb-[120px]">
     <Container className="">
 
         <div className="flex justify-between">
