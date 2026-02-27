@@ -5,9 +5,9 @@
 
 import profiletwo from '/src/assets/4.jpg';
 import Image from '/componants/page/Image';
-import Flex from '/Componants/page/Flex';
-import Container from '/Componants/page/Container';
-import Button from '/Componants/page/Button';
+import Flex from '/componants/page/Flex';
+import Container from '/componants/page/Container';
+import Button from '/componants/page/Button';
 
 
 
