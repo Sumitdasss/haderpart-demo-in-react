@@ -1,6 +1,6 @@
-import React from 'react'
-import Container from './Container'
-import Flex from './Flex'
+
+import Container from './Container.jsx'
+import Flex from './Flex.jsx'
 
 const Navbartwo = () => {
   return (

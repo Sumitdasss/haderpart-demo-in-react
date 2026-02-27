@@ -4,10 +4,10 @@
 
 
 import profiletwo from '/src/assets/4.jpg';
-import Image from '/Componants/page/Image';
-import Flex from '/Componants/page/Flex';
-import Container from '/Componants/page/Container';
-import Button from '/Componants/page/Button';
+import Image from '/Componants/page/Image.jsx';
+import Flex from '/Componants/page/Flex.jsx';
+import Container from '/Componants/page/Container.jsx';
+import Button from '/Componants/page/Button.jsx';
 
 
 

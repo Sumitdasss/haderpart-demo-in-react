@@ -1,6 +1,6 @@
 import React from 'react'
-import Image from '/componants/page/Image'
-import Container from '/componants/page/Container'
+import Image from '/componants/page/Image.jsx'
+import Container from '/componants/page/Container.jsx'
 
 import imgone from '/src/assets/box 1 (1).png'
 import imgtwo from '/src/assets/delivery-van 1 (1).png'

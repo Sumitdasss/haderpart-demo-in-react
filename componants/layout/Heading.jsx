@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbartwo from '/componants/page/Navbartwo'
-import Navbarthree from '/componants/page/Navbarthree'
+import Navbartwo from '/componants/page/Navbartwo.jsx'
+import Navbarthree from '/componants/page/Navbarthree.jsx'
 
 const Heading = () => {
   return (
