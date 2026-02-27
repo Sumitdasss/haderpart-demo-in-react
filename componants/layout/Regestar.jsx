@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from '/componants/page/Container.jsx'
-import Image from '/componants/page/Image.jsx'
+import Image from '../page/Image.jsx'
 import imgone from '/src/assets/download-removebg-preview.png'
 import Flex from '/componants/page/Flex.jsx'
 
