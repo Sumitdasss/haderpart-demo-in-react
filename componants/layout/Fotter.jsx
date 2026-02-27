@@ -1,7 +1,7 @@
 import React from 'react'
-import Image from '../page/Image'
-import Container from '../page/Container'
-import Flex from '../page/Flex'
+import Image from '/componants/page/Image'
+import Container from '/componants/page/Container'
+
 import imgone from '/src/assets/box 1 (1).png'
 import imgtwo from '/src/assets/delivery-van 1 (1).png'
 import imgthree from '/src/assets/credit-card 1 (1).png'

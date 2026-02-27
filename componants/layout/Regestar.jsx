@@ -1,8 +1,8 @@
 import React from 'react'
-import Container from '../page/Container'
-import Image from '../page/Image'
+import Container from '/componants/page/Container'
+import Image from '/componants/page/Image'
 import imgone from '/src/assets/download-removebg-preview.png'
-import Flex from '../page/Flex'
+import Flex from '/componants/page/Flex'
 
 const Regestar = () => {
   return (
