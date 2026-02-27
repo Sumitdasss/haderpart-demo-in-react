@@ -4,7 +4,7 @@
 
 
 import profiletwo from '/src/assets/4.jpg';
-import Image from '../page/Image.';
+import Image from '/componants/page/Image';
 import Flex from '/Componants/page/Flex';
 import Container from '/Componants/page/Container';
 import Button from '/Componants/page/Button';
