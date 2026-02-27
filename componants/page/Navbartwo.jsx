@@ -1,6 +1,6 @@
 
 import Container from './Container.jsx'
-import Flex from './Flex.jsx'
+import Flex from './Flex'
 
 const Navbartwo = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from '../page/Image.jsx'
+import Image from '/componants/page/Image.jsx'
 import Container from '/componants/page/Container.jsx'
 
 import imgone from '/src/assets/box 1 (1).png'

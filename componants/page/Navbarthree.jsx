@@ -1,7 +1,7 @@
 import React from 'react'
-import Image from './Image.jsx'
-import Container from './Container.jsx'
-import Flex from './Flex.jsx'
+import Image from './Image'
+import Container from './Container'
+import Flex from './Flex'
 import profile from '/src/assets/logo.png'
 
 const Navbarthree = () => {
