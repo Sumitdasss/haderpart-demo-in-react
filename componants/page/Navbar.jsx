@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from './Button'
 import Flex from './Flex'
-import Container from './Container.jsx';
+import Container from './Container';
 
 const Navbar = ({className}) => {
   return (
