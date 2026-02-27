@@ -67,9 +67,9 @@ const Fotter = () => {
     <h4 className="text-[16px] text-primary5 font-medium pl-[20px] leading-[25px]">Have Question? Call Us 24/7<br></br>
 <span className ="text-[24px] text-primary1 font-semibold">+258 3692 2569</span></h4>
 </div>
-<h4 className="text-[16px] text-primary5 font-medium pt-[25px]">Monday - Friday:<span className="text-primary3"> 8:00am - 6:00pm</span></h4>
+<h4 className="text-[16px] text-primary5 font-medium pt-[25px]">Monday - Friday:<span className="text-primary3 font-medium"> 8:00am - 6:00pm</span></h4>
 <h4 className="text-[16px] text-primary5 font-medium pt-[10px]">Saturday:<span className="text-primary3 font-medium"> 8:00am - 6:00pm</span></h4>
-<h4 className="text-[16px] text-primary5 font-medium pt-[10px]">Sunday:<span> Service Close</span></h4>
+<h4 className="text-[16px] text-primary5 font-medium pt-[10px]">Sunday:<span className='text-primary3 font-medium'> Service Close</span></h4>
 
     </div>
     <div className="">
