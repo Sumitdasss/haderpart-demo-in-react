@@ -10,10 +10,10 @@ const Navbartwo = () => {
         <Flex className="flex justify-between items-center h-10">
             <div className="">
                 <ul className="flex text-[14px] font-medium text-white">
-                    <li className="px-4"><Link to="/about" target="_blank">About</Link></li>
-                    <li className="px-4"><Link to="/myaccount" target="_blank">My Account</Link></li>
-                    <li className="px-4"><Link to="/wishlist" target="_blank">Wishlist</Link></li>
-                    <li className="px-4"><Link to="/checkout" target="_blank">Checkout</Link></li>
+                    <li className="px-4"><Link to="/about" >About</Link></li>
+                    <li className="px-4"><Link to="/myaccount" >My Account</Link></li>
+                    <li className="px-4"><Link to="/wishlist" >Wishlist</Link></li>
+                    <li className="px-4"><Link to="/checkout" >Checkout</Link></li>
                 </ul>
             
             </div>
