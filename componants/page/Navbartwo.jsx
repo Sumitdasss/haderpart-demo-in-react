@@ -11,7 +11,7 @@ const Navbartwo = () => {
             <div className="">
                 <ul className="flex text-[14px] font-medium text-white">
                     <li className="px-4"><Link to="/about" target="_blank">About</Link></li>
-                    <li className="px-4"><Link to="account" target="_blank">My Account</Link></li>
+                    <li className="px-4"><Link to="/my account" target="_blank">My Account</Link></li>
                     <li className="px-4"><Link to="/wishlist" target="_blank">Wishlist</Link></li>
                     <li className="px-4"><Link to="/checkout" target="_blank">Checkout</Link></li>
                 </ul>
