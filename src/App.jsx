@@ -30,7 +30,7 @@ function App() {
      <Routes>
 <Route path='/' element={<RootLayout/>}>
 <Route index element={<Iayoutone/>}/>
-<Route path='My Account' element={<Regestar/>}/>
+<Route path='account' element={<Regestar/>}/>
 <Route path='shop' element={<Shop/>}/>
 <Route path='cart' element={<Cart/>}/>
 
