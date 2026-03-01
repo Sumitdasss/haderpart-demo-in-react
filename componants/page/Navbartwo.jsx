@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router-dom'
 import Container from './Container'
 import Flex from './Flex'
 
@@ -9,10 +10,10 @@ const Navbartwo = () => {
         <Flex className="flex justify-between items-center h-10">
             <div className="">
                 <ul className="flex text-[14px] font-medium text-white">
-                    <li className="px-4"><a href="" target="_blank">About</a></li>
-                    <li className="px-4"><a href="" target="_blank">My Account</a></li>
-                    <li className="px-4"><a href="" target="_blank">Wishlist</a></li>
-                    <li className="px-4"><a href="" target="_blank">Checkout</a></li>
+                    <li className="px-4"><Link to="/about" target="_blank">About</Link></li>
+                    <li className="px-4"><Link to="/My Account" target="_blank">My Account</Link></li>
+                    <li className="px-4"><Link to="/wishlist" target="_blank">Wishlist</Link></li>
+                    <li className="px-4"><Link to="/checkout" target="_blank">Checkout</Link></li>
                 </ul>
             
             </div>

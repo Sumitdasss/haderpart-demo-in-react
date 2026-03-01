@@ -2,6 +2,7 @@
 import Button from './Button'
 import Flex from './Flex'
 import Container from './Container';
+import { Link } from 'react-router-dom';
 
 const Navbar = ({className}) => {
   return (
@@ -10,12 +11,12 @@ const Navbar = ({className}) => {
 <Flex className=' h-[50px] items-center '>
     <div className="">
         <ul className='flex text-[16px] text-white font-medium space-x-5'>
-            <li><a href="">HOME</a></li>
-            <li><a href="">SHOP</a></li>
-            <li><a href="">COLLECTION</a></li>
-            <li><a href="">JOURNAL</a></li>
-            <li><a href="">LOOKBOOK</a></li>
-            <li><a href="">PAGES</a></li>
+            <li><Link to="/">HOME</Link></li>
+            <li><Link to="/shop">SHOP</Link></li>
+            <li><Link to="/collection">COLLECTION</Link></li>
+            <li><Link to="/journal">JOURNAL</Link></li>
+            <li><Link to="/lookbook">LOOKBOOK</Link></li>
+            <li><Link to="/pages">PAGES</Link></li>
                                                            
         </ul>
     </div>

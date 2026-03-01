@@ -3,6 +3,7 @@ import Image from './Image'
 import Container from './Container'
 import Flex from './Flex'
 import profile from '/src/assets/logo.png'
+import { Link } from 'react-router-dom'
 
 const Navbarthree = () => {
   return (
@@ -61,7 +62,7 @@ const Navbarthree = () => {
             <div className="w-auto h-[50px] flex items-center ">
             
             <div className="w-[45px] h-[45px] bg-primary4 text-white flex justify-center items-center ml-4 rounded-full ">
-         <a href=""> <i className="fa-solid fa-cart-shopping text-primary3"></i></a>
+         <Link to="/cart"> <i className="fa-solid fa-cart-shopping text-primary3"></i></Link>
             </div>
             <div className="">
 <h4 className="text-[14px] text-primary5 font-normal pl-[10px]">Your cart,</h4>
@@ -76,13 +77,13 @@ const Navbarthree = () => {
           
                 <div className="">
                 <ul className="flex text-white font-medium text-[14px] uppercase top-[50px]">
-                    <li className="px-5 hover:text-primary1 font-semibold hover:duration-500 before:absolute before:transition-all 0.3s before:origin-left  before:w-[100px] before:h-[0px] before:flex  before:items-center before:justify-center  hover:before:h-[50px] before:mt-12 before:-ml-5  z-20   hover:before:content-['Home'] before:bg-white before:text-center  before:text-[#222222]"><a href="">Home</a></li>
-                    <li className="px-5 hover:text-primary1 font-semibold hover:duration-500 before:absolute before:transition-all 0.3s before:origin-left  before:w-[100px] before:h-[0px] before:flex  before:items-center before:justify-center  hover:before:h-[50px] before:mt-12 before:-ml-5  z-20   hover:before:content-['Shop'] before:bg-white before:text-center  before:text-[#222222]"><a href="">Shop</a></li>
-                    <li className="px-5 hover:text-primary1 font-semibold hover:duration-500 before:absolute before:transition-all 0.3s before:origin-left  before:w-[100px] before:h-[0px] before:flex  before:items-center before:justify-center  hover:before:h-[50px] before:mt-12 before:-ml-5  z-20   hover:before:content-['Women'] before:bg-white before:text-center  before:text-[#222222]"><a href="">Women</a></li>
-                    <li className="px-5 hover:text-primary1 font-semibold hover:duration-500 before:absolute before:transition-all 0.3s before:origin-left  before:w-[100px] before:h-[0px] before:flex  before:items-center before:justify-center  hover:before:h-[50px] before:mt-12 before:-ml-5  z-20   hover:before:content-['Man'] before:bg-white before:text-center  before:text-[#222222]"><a href="">Man</a></li>
-                    <li className="px-5 hover:text-primary1 font-semibold hover:duration-500 before:absolute before:transition-all 0.3s before:origin-left  before:w-[100px] before:h-[0px] before:flex  before:items-center before:justify-center  hover:before:h-[50px] before:mt-12 before:-ml-5  z-20   hover:before:content-['Pages'] before:bg-white before:text-center   before:text-[#222222] "><a href="">Pages</a></li>
-                    <li className="px-5 hover:text-primary1 font-semibold hover:duration-500 before:absolute before:transition-all 0.3s before:origin-left  before:w-[100px] before:h-[0px] before:flex  before:items-center before:justify-center  hover:before:h-[50px] before:mt-12 before:-ml-5  z-20   hover:before:content-['Blog'] before:bg-white before:text-center   before:text-[#222222] "><a href="">Blog</a></li>
-                    <li className="px-5 hover:text-primary1 font-semibold hover:duration-500 before:absolute before:transition-all 0.3s before:origin-left  before:w-[100px] before:h-[0px] before:flex  before:items-center before:justify-center  hover:before:h-[50px] before:mt-12 before:-ml-5  z-20   hover:before:content-['Contact'] before:bg-white before:text-center  before:text-[#222222]"><a href="">Contact</a></li>
+                    <li className="px-5 hover:text-primary1 font-semibold hover:duration-500 before:absolute before:transition-all 0.3s before:origin-left  before:w-[100px] before:h-[0px] before:flex  before:items-center before:justify-center  hover:before:h-[50px] before:mt-12 before:-ml-5  z-20   hover:before:content-['Home'] before:bg-white before:text-center  before:text-[#222222]"><Link to="/">Home</Link></li>
+                    <li className="px-5 hover:text-primary1 font-semibold hover:duration-500 before:absolute before:transition-all 0.3s before:origin-left  before:w-[100px] before:h-[0px] before:flex  before:items-center before:justify-center  hover:before:h-[50px] before:mt-12 before:-ml-5  z-20   hover:before:content-['Shop'] before:bg-white before:text-center  before:text-[#222222]"><Link to="/shop">Shop</Link></li>
+                    <li className="px-5 hover:text-primary1 font-semibold hover:duration-500 before:absolute before:transition-all 0.3s before:origin-left  before:w-[100px] before:h-[0px] before:flex  before:items-center before:justify-center  hover:before:h-[50px] before:mt-12 before:-ml-5  z-20   hover:before:content-['Women'] before:bg-white before:text-center  before:text-[#222222]"><Link to="/women">Women</Link></li>
+                    <li className="px-5 hover:text-primary1 font-semibold hover:duration-500 before:absolute before:transition-all 0.3s before:origin-left  before:w-[100px] before:h-[0px] before:flex  before:items-center before:justify-center  hover:before:h-[50px] before:mt-12 before:-ml-5  z-20   hover:before:content-['Man'] before:bg-white before:text-center  before:text-[#222222]"><Link to="/man">Man</Link></li>
+                    <li className="px-5 hover:text-primary1 font-semibold hover:duration-500 before:absolute before:transition-all 0.3s before:origin-left  before:w-[100px] before:h-[0px] before:flex  before:items-center before:justify-center  hover:before:h-[50px] before:mt-12 before:-ml-5  z-20   hover:before:content-['Pages'] before:bg-white before:text-center  before:text-[#222222] "><Link to="/pages">Pages</Link></li>
+                    <li className="px-5 hover:text-primary1 font-semibold hover:duration-500 before:absolute before:transition-all 0.3s before:origin-left  before:w-[100px] before:h-[0px] before:flex  before:items-center before:justify-center  hover:before:h-[50px] before:mt-12 before:-ml-5  z-20   hover:before:content-['Blog'] before:bg-white before:text-center  before:text-[#222222]"><Link to="/blog">Blog</Link></li>
+                    <li className="px-5 hover:text-primary1 font-semibold hover:duration-500 before:absolute before:transition-all 0.3s before:origin-left  before:w-[100px] before:h-[0px] before:flex  before:items-center before:justify-center  hover:before:h-[50px] before:mt-12 before:-ml-5  z-20   hover:before:content-['Contact'] before:bg-white before:text-center  before:text-[#222222]"><Link to="/contact">Contact</Link></li>
                 </ul>
                 </div>
               
